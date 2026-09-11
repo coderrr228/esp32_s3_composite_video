@@ -44,6 +44,19 @@ void loop() {
 }
 ```
 
+## Installation
+
+Since this library is not available in the official Arduino Library Manager, you can install it manually using the ZIP archive provided in this repository:
+
+1. Download the **`esp32_s3_composite_video.zip`** file from this repository to your computer.
+2. Open your Arduino IDE.
+3. Navigate to **Sketch** ➔ **Include Library** ➔ **Add .ZIP Library...**
+4. Select the downloaded `.zip` file and click **Open**.
+5. Restart your Arduino IDE.
+
+Once installed, you can simply include it in your sketches using `#include <esp32_s3_composite_video.h>`.
+
+
 ## API Reference
 
 ### 1. Initialization (`begin`)
